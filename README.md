@@ -1,4 +1,4 @@
-Pet-project in progress.
-Nothing to look at for a while.
+#### Pet-project in progress.</br>
+___
 
-[GH pages link]: https://daryasza.github.io/scrollInside/index.html
+<sub>GH pages [link](https://daryasza.github.io/scrollInside/index.html)</sub>
