@@ -75,7 +75,21 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-color: #fff;
   will-change: transform;
   transition: transform .2s;
+  background-color: #fff;
+
+}
+
+.сard__item--sea {
+  background: url(../assets/photo.png) center / cover  no-repeat ;
+}
+
+.сard__item--photo {
+  background: url(../assets/photo_2022-11-10_20.14.45-removebg-preview\ \(1\).png) center / cover  no-repeat ;
+}
+
+.сard__item--cat {
+  background: url(../assets/кот.jpeg) center / cover  no-repeat ;
+
 }

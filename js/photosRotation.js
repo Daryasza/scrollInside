@@ -8,6 +8,7 @@ document.addEventListener('mousemove', function (e) {
       const cardWidthHalf = cardItem.offsetWidth / 2;
 
       cardItem.style.transform = `rotateY(${-(e.offsetX - cardWidthHalf)/4 }deg) rotateX(${(e.offsetY - cardHeightHalf)/4}deg)`;
+      cardItem.style.boxShadow = `inset ${e.offsetX}px ${e.offsetY}px 100px 10px rgba(0, 0, 0, 0.5)`
     }
   }
 });
@@ -17,6 +18,7 @@ document.addEventListener('mouseout', function(e) {
     let cardItem = cardItems[i];
     if (e.target === cardItem) {
       cardItem.style.transform = 'rotate(0deg)';
+      cardItem.style.boxShadow = 'none';
     }
   }
 });
